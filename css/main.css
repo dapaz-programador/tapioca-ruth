@@ -263,7 +263,7 @@ a.navbar-brand {
     white-space: normal;
     /*overflow: hidden;*/
     height: 40px;
-    margin-bottom: 50px; /* modificado 20px */
+    margin-bottom: 20px; /* modificado 20px */
 }
 
 .card-item .price-produto {

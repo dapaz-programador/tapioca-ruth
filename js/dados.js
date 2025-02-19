@@ -17,7 +17,7 @@ var MENU = {
         },
         {
             "id": "006-kings-meat-lovers-special",
-            "img": "./img/cardapio/pao/paoformaOvo.jpeg",
+            "img": "./img/cardapio/pao/paoPresunto.jpeg",
             "name": "Pão careca com presunto",
             "dsc": "BBQ Meat Lovers Special for 10",
             "price": 5
@@ -25,7 +25,7 @@ var MENU = {
         {
             "id": "whole-brisket-texas-bbq-sauce",
             "img": "./img/cardapio/pao/paoMisto.jpeg",
-            "name": "Pão careca queijo e presunto",
+            "name": "Pão careca com queijo e presunto",
             "dsc": "Whole Brisket + Texas Barbecue BBQ Sauce",
             "price": 8
         }, 
@@ -43,7 +43,7 @@ var MENU = {
             "dsc": "Whole Texas Smoked Brisket",
             "price": 10
         },
-        
+
         /*
         {
             "id": "mini-trinity-bbq-combo-brisket-ribs-and-links",
@@ -149,14 +149,14 @@ var MENU = {
         },
         {
             "id": "burger-au-poivre-kit-4-pack",
-            "img": "./img/cardapio/coxinhas/charqueQueijo.png",
+            "img": "./img/cardapio/tapioca/tapQO.jpeg",
             "name": "Tapioca com queijo e ovo",
             "dsc": "Burger Au Poivre Kit - 4 Pack",
             "price": 9
         },        
         {
             "id": "gotts-complete-cheeseburger-kit-for-8",
-            "img": "./img/cardapio/coxinhas/peitoperuQueijo.png",
+            "img": "./img/cardapio/tapioca/tapPO.jpeg",
             "name": "Tapioca com presunto e ovo",
             "dsc": "Gott's Complete Cheeseburger Kit for 8",
             "price": 8
@@ -299,7 +299,7 @@ var MENU = {
         },
         {
             "id": "margarita-mix",
-            "img": "./img/cardapio/bebidas2/suco300.png",
+            "img": "./img/cardapio/bebidas2/leite.jpeg",
             "name": "leite",
             "dsc": "Margarita Mix",
             "price": 3
