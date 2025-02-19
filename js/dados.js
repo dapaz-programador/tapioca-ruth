@@ -6,21 +6,28 @@ var MENU = {
             "img": "./img/cardapio/pao/paoManteiga.jpeg",
             "name": "Pão careca com manteiga",
             "dsc": "Carolina BBQ Oink Sampler",
-            "price": 5
+            "price": 3
         },
         {
             "id": "ribs-brisket-and-burnt-ends",
             "img": "./img/cardapio/pao/paoQueijo.jpeg",
             "name": "Pão careca com queijo",
             "dsc": "Joe's KC Ribs, Brisket & Burnt Ends",
-            "price": 5
+            "price": 7
         },
+        {
+            "id": "006-kings-meat-lovers-special",
+            "img": "./img/cardapio/pao/paoformaOvo.jpeg",
+            "name": "Pão careca com presunto",
+            "dsc": "BBQ Meat Lovers Special for 10",
+            "price": 5
+        },        
         {
             "id": "whole-brisket-texas-bbq-sauce",
             "img": "./img/cardapio/pao/paoMisto.jpeg",
             "name": "Pão careca queijo e presunto",
             "dsc": "Whole Brisket + Texas Barbecue BBQ Sauce",
-            "price": 7
+            "price": 8
         }, 
         {
             "id": "texas-monthlys-1-bbq-brisket",
@@ -34,8 +41,10 @@ var MENU = {
             "img": "./img/cardapio/pao/paoQPO.jpeg",
             "name": "Pão careca queijo, presunto, ovo",
             "dsc": "Whole Texas Smoked Brisket",
-            "price": 8
+            "price": 10
         },
+        
+        /*
         {
             "id": "mini-trinity-bbq-combo-brisket-ribs-and-links",
             "img": "./img/cardapio/pao/paoformaQ.jpeg",
@@ -49,14 +58,6 @@ var MENU = {
             "name": "Pão de forma queijo e presunto",
             "dsc": "Blue Smoke Baby Back Ribs + Backyard Barbecue Chicken Combo",
             "price": 7
-        },
-        /*
-        {
-            "id": "006-kings-meat-lovers-special",
-            "img": "./img/cardapio/pao/paoformaOvo.jpeg",
-            "name": "Pão de forma com ovo",
-            "dsc": "BBQ Meat Lovers Special for 10",
-            "price": 5
         },        
         {
             "id": "the-big-ugly-bbq-dinner-for-6",
@@ -94,35 +95,36 @@ var MENU = {
             "img": "./img/cardapio/tapioca/tapMargarina.jpeg",
             "name": "Tapioca com margarina",
             "dsc": "The Gramercy Tavern Burger - 4 Pack",
-            "price": 5
+            "price": 3
         },
         {
             "id": "shake-shack-shackburger-8-pack",
             "img": "./img/cardapio/tapioca/tapManteiga.jpeg",
             "name": "Tapioca com manteiga",
             "dsc": "Shake Shack ShackBurger® - 8 Pack",
-            "price": 6
+            "price": 4
         },
+        {
+            "id": "double-stack-burger-kit-for-4",
+            "img": "./img/cardapio/tapioca/tapCasada2.jpeg",
+            "name": "Tapioca com Coco",
+            "dsc": "Double Stack Burger Kit for 4",
+            "price": 4
+        },       
         {
             "id": "gotts-cheeseburger-kit-for-4",
             "img": "./img/cardapio/tapioca/tapMolhada.jpeg",
             "name": "Tapioca molhada",
             "dsc": "Gott's Complete Cheeseburger Kit for 4",
-            "price": 5
+            "price": 4
         },
-        {
-            "id": "gramercy-tavern-burger-kielbasa-combo",
-            "img": "./img/cardapio/tapioca/tapOvo.jpeg",
-            "name": "Tapioca com ovo",
-            "dsc": "Gramercy Tavern Burger + Kielbasa Combo",
-            "price": 6
-        },
+        
         {
             "id": "goldbelly-burger-blend-4-lbs",
             "img": "./img/cardapio/tapioca/tapQueijo.jpeg",
             "name": "Tapioca com queijo",
             "dsc": "Goldbelly Burger Blend - 4 lbs.",
-            "price": 6
+            "price": 8
         },
         {
             "id": "goldbelly-burger-bash-pack",
@@ -136,46 +138,44 @@ var MENU = {
             "img": "./img/cardapio/tapioca/queijoPresunto.jpeg",
             "name": "Tapioca com queijo e presunto",
             "dsc": "Le Big Matt Burger Kit for 6",
-            "price": 7
+            "price": 11
         },
+        {
+            "id": "gramercy-tavern-burger-kielbasa-combo",
+            "img": "./img/cardapio/tapioca/tapOvo.jpeg",
+            "name": "Tapioca com ovo",
+            "dsc": "Gramercy Tavern Burger + Kielbasa Combo",
+            "price": 6
+        },
+        {
+            "id": "burger-au-poivre-kit-4-pack",
+            "img": "./img/cardapio/coxinhas/charqueQueijo.png",
+            "name": "Tapioca com queijo e ovo",
+            "dsc": "Burger Au Poivre Kit - 4 Pack",
+            "price": 9
+        },        
+        {
+            "id": "gotts-complete-cheeseburger-kit-for-8",
+            "img": "./img/cardapio/coxinhas/peitoperuQueijo.png",
+            "name": "Tapioca com presunto e ovo",
+            "dsc": "Gott's Complete Cheeseburger Kit for 8",
+            "price": 8
+        },                
         {
             "id": "shake-shack-shackburger-16-pack",
             "img": "./img/cardapio/tapioca/tapQOP.jpeg",
             "name": "Tapioca com queijo, presunto e ovo",
             "dsc": "Shake Shack Shackburger® - 16 Pack",
-            "price": 10
+            "price": 13
         },
+        /*
         {
             "id": "21-usda-prime-burgers-pack-of-18-8oz-each",
             "img": "./img/cardapio/tapioca/tapCasada2.jpeg",
             "name": "Tapioca casada",
             "dsc": "USDA Prime Burgers - Pack of 18 (8oz each)",
             "price": 10
-        },
-        /*
-        {
-            "id": "double-stack-burger-kit-for-4",
-            "img": "./img/cardapio/coxinhas/camaraoCuia.png",
-            "name": "Camarão com queijo cuia",
-            "dsc": "Double Stack Burger Kit for 4",
-            "price": 8
         },       
-        {
-            "id": "burger-au-poivre-kit-4-pack",
-            "img": "./img/cardapio/coxinhas/charqueQueijo.png",
-            "name": "Charque com queijo",
-            "dsc": "Burger Au Poivre Kit - 4 Pack",
-            "price": 8
-        },
-        
-        {
-            "id": "gotts-complete-cheeseburger-kit-for-8",
-            "img": "./img/cardapio/coxinhas/peitoperuQueijo.png",
-            "name": "Peito peru com queijo cuia",
-            "dsc": "Gott's Complete Cheeseburger Kit for 8",
-            "price": 8
-        },                
-        
         {
             "id": "23699-choose-your-own-thin-crust-pizza-4-pack",
             "img": "./img/cardapio/empadas/xtudo.jpeg",
@@ -186,6 +186,7 @@ var MENU = {
             */        
     ],
     "sobremesas": [
+        /*
         {
             "id": "15259-german-chocolate-killer-brownie-tin-pack",
             "img": "./img/cardapio/tapioca/tapCafeLeite.jpeg",
@@ -206,8 +207,7 @@ var MENU = {
             "name": "Pâo com queijo, presunto e ovo + café com leite",
             "dsc": "Original Cannoli Pie",
             "price": 10
-        },
-        /*
+        },        
         {
             "id": "sea-salted-caramel-swirl-cheesecake",
             "img": "./img/cardapio/sobremesas/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg",
@@ -281,28 +281,28 @@ var MENU = {
             "img": "./img/cardapio/bebidas2/cafePreto.jpeg",
             "name": "Café preto",
             "dsc": "Hong Kong Boba Tea Kit for 6",
-            "price": 5
+            "price": 2.5
         },
         {
             "id": "guys-caliente-margaritas-for-12",
             "img": "./img/cardapio/bebidas2/cafeLeite.jpeg",
             "name": "Café com leite",
             "dsc": "Guy's Caliente Margaritas for 12",
-            "price": 5.5
+            "price": 3.5
         },        
         {
             "id": "woodford-reserve-mint-julep-syrup",
             "img": "./img/cardapio/bebidas2/nescau.jpeg",
             "name": "Nescau",
             "dsc": "Woodford Reserve Mint Julep Syrup",
-            "price": 5
+            "price": 4
         },
         {
             "id": "margarita-mix",
             "img": "./img/cardapio/bebidas2/suco300.png",
-            "name": "Suco natural 300ml",
+            "name": "leite",
             "dsc": "Margarita Mix",
-            "price": 5
+            "price": 3
         },
 
         /*        
@@ -379,21 +379,21 @@ var MENU = {
             "img": "./img/cardapio/cuscuz/cuscuzMilho.jpeg",
             "name": "Cuscuz de milho",
             "dsc": "2 Lou Malnati's Deep Dish Pizzas",
-            "price": 6
+            "price": 5
         },        
         {
             "id": "choose-your-own-new-haven-style-pizza-6-pack",
             "img": "./img/cardapio/cuscuz/cuscuzArroz.jpeg",
             "name": "Cuscuz de arroz",
             "dsc": "New Haven-Style Pizza - 6 Pack (Choose Your Own)",
-            "price": 6.5
+            "price": 5
         },
         {
             "id": "6-lou-malnatis-deep-dish-pizzas",
             "img": "./img/cardapio/cuscuz/cuzMisto.jpeg",
             "name": "Cuscuz misto",
             "dsc": "6 Lou Malnati's Deep Dish Pizzas",
-            "price": 6
+            "price": 5
         },
 
         /*
@@ -458,6 +458,7 @@ var MENU = {
     
     
     "steaks": [
+        /*
         {
             "id": "california-reserve-filet-mignon-steaks-gift-box",
             "img": "./img/cardapio/sopa/sopa.jpeg",
