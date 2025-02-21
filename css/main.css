@@ -9,17 +9,17 @@
 }
 
 :root {
-    --color-background: #FEFAE0; /* f86201 */
-    --color-black: #606C38;
+    --color-background: #FFC8DD; /* f86201 */
+    --color-black: #3A0CA3;
     --color-black-heavy: #283618;
-    --color-text: #4f4f4f;
+    --color-text: #4361EE;
     --color-text-out: #f7f7f3; /* f7f7f3 */
-    --color-primary: #BC6C25;
-    --color-secondary: #DDA15E;
+    --color-primary: #4CC9F0;
+    --color-secondary: #CDB4DB;
     --color-white: #ffffff;
-    --color-red: #915E3F;
-    --color-green: #32945b;
-    --color-separate: #727272;
+    --color-red: #7209B7;
+    --color-green: #A2D2FF;
+    --color-separate: #0096c7;
 }
 
 
@@ -62,7 +62,7 @@ a.navbar-brand {
 }
 
 .btn-white.active, .btn-white:hover {
-    background-color: #DDA15E;
+    background-color: #A2D2FF;
 }
 
 .btn-icon {
@@ -146,7 +146,7 @@ a.navbar-brand {
     height: 450px;
     width: 450px;
     border-radius: 170px;
-    background-color: #588157; /*f4c949 */
+    background-color: #A2D2FF; /*f4c949 */
     position: absolute;
     right: 0;
     top: -80px;
@@ -189,14 +189,14 @@ a.navbar-brand {
 }
 
 .hint-title {
-    color: var(--color-primary);
+    color: #480ca8;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
 .title {
-    color: var(--color-black);
+    color: #00b4d8;
     font-size: 40px;
     margin-top: 5px;
     margin-bottom: 30px;
